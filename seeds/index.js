@@ -3,7 +3,7 @@ const Campground = require('../models/campground')
 const cities = require('./cities') //our file 
 const {places, descriptors} = require('./seedHelpers')
 
-mongoose.connect('mongodb://127.0.0.1:27017/yelp-camp')
+mongoose.connect(process.env.DB_URL)
   .then(()=>{
     console.log("mongo connected...")
   })
