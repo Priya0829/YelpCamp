@@ -1,0 +1,55 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("https://res.cloudinary.com/duky4cmld/image/upload/v1750846586/peter-vanosdall-6pVTxAaX448-unsplash_x7y4ep.jpg");
+    background-size: cover;
+    background-position: center;
+    text-shadow: 0 0.05rem 0.1rem rgba(0,0,0,0.5);
+}
+
+.cover-container{
+    max-width: 60vw;
+}
+
+.nav-link{
+    padding: 0.25rem 0;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 1rem;
+    border-bottom: 0.15rem solid transparent;
+}
+
+.nav-link:hover{
+    color: rgba(255, 255, 255, 0.5);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.nav-link.active{
+    color:white;
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-secondary, .btn-secondary:hover{
+    color: black;
+    font-weight: 600;
+    text-shadow: none;
+}
+
+.carousel {
+    height: 100px;
+    overflow: hidden;
+  }
+
+  .carousel-inner {
+    height: 100%;
+  }
+
+  .carousel-item {
+    height: 100%;
+  }
+
+  .carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }

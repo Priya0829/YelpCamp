@@ -1,0 +1,27 @@
+#cluster-map{
+    width: 100%;
+    height: 500px;
+
+}
+
+#map{
+    width: 100%;
+    height: 300px;
+}
+
+#campgroundCarousel {
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  #campgroundCarousel .carousel-inner,
+  #campgroundCarousel .carousel-item {
+    height: 100%;
+  }
+  
+  #campgroundCarousel .carousel-img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  
